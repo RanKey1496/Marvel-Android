@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="base_url">http://gateway.marvel.com</string>
+    <string name="public_key">b7c91dff2bf9966cd135dee797e8e6a7</string>
+    <string name="private_key">3ed66b31a1357f5180a97caa0b3dca74cf13ffc1</string>
+    <string name="app_name">Quiz 3 Marvel API</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="hintUserName">Insert your Username</string>
+	<string name="hintUserPassword">Insert your Password</string>
+	<string name="hintRepeatPassword">Reply Password</string>
+	<string name="imgMarvelHeroesDescription">Marvel Heroes Logo</string>
+	<string name="btnRegister">Register</string>
+	<string name="btnCancel">Exit</string>
+	<string name="btnCharacters">Characters</string>
+	<string name="btnFavorites">Favorites</string>
+	<string name="btnSearch">Search</string>
+    
+</resources>

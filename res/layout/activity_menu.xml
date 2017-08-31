@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btnCharacters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/img_characters"
+        android:text="@string/btnCharacters" />
+
+    <Button
+        android:id="@+id/btnFavorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_toRightOf="@+id/btnCharacters"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/img_favorites"
+        android:text="@string/btnFavorites" />
+    
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCharacters"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/img_search"
+        android:text="@string/btnSearch" />
+    
+</RelativeLayout>

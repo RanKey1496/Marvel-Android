@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtAreYouSure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/imgAdd"
+        android:text="You want to add (Name) to favorites list?" />
+
+    <ImageView
+        android:id="@+id/imgAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image_not_available" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAreYouSure"
+        android:layout_below="@+id/txtAreYouSure"
+        android:text="Add" />
+
+    <Button
+        android:id="@+id/btnAddCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnAdd"
+        android:layout_alignBottom="@+id/btnAdd"
+        android:layout_alignRight="@+id/txtAreYouSure"
+        android:text="Exit" />
+    
+</RelativeLayout>

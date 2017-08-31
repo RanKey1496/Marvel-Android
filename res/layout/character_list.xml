@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imgCharacterList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/txtCharacterlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/imgCharacterList"
+        android:layout_toRightOf="@+id/imgCharacterList"
+        android:text="Character" />
+
+    <TextView
+        android:id="@+id/txtComicList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_alignLeft="@+id/txtCharacterlist"
+        android:layout_below="@+id/txtCharacterlist"
+        android:text="Comics: " />
+
+</RelativeLayout>

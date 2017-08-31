@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<ImageView
+        android:id="@+id/imgCaptain"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/imgMarvelHeroesDescription"
+        android:src="@drawable/img_captain" />
+
+    <EditText
+        android:id="@+id/txtRegisterUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/imgCaptain"
+        android:hint="@string/hintUserName"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRegisterUser"
+        android:hint="@string/hintUserPassword"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+    <EditText
+        android:id="@+id/txtRegisterReplyPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRegisterPassword"
+        android:hint="@string/hintRepeatPassword"
+        android:ems="10"
+        android:inputType="textPassword" />
+    
+    <Button 
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/btnRegister"
+        android:layout_below="@+id/txtRegisterReplyPassword"
+        android:text="@string/btnCancel"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtRegisterReplyPassword"
+        android:text="@string/btnRegister" />
+    
+</RelativeLayout>
